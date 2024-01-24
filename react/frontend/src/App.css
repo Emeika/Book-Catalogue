@@ -1,0 +1,115 @@
+/* App.css */
+body {
+  background-color: #1a1a1a;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  color: #ffcc00;
+  text-align: center;
+}
+
+/* App.css */
+
+/* Styles for BookList component */
+.BookList {
+  margin: 20px;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+}
+
+/* Styles for Book component */
+.Book {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #444;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+/* Styles for AddBookForm component */
+.AddBookForm {
+  margin: 20px;
+  padding: 20px;
+  background-color: #666;
+  border-radius: 10px;
+}
+
+/* Styles for EditBookForm component */
+.EditBookForm {
+  margin: 20px;
+  padding: 20px;
+  background-color: #777;
+  border-radius: 10px;
+}
+
+/* Additional global styles for the entire app */
+body {
+  background-color: #222;
+  /* Dark background color */
+  color: #fff;
+  /* Text color */
+}
+
+h1 {
+  color: #ffa500;
+  /* Header color */
+}
+
+/* App.css */
+
+/* ... Previous styles ... */
+
+/* Updated button styles with glow effect and animation */
+button {
+  background-color: #ffa500;
+  /* Orange button color */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  margin: 5px;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s, color 0.3s;
+  /* Smooth transition effect */
+}
+
+button:hover {
+  background-color: #ffe6a7;
+  /* Lighter orange on hover */
+  color: black;
+  box-shadow: 0 0 10px #ff8000, 0 0 40px #ff8000, 0 0 80px #ff8000;
+  animation: glow 1.5s infinite;
+  /* Glow animation */
+}
+
+@keyframes glow {
+
+  0%,
+  100% {
+    box-shadow: 0 0 10px #ff8000, 0 0 40px #ff8000, 0 0 80px #ff8000;
+  }
+
+  50% {
+    box-shadow: 0 0 20px #ff8000, 0 0 30px #ff8000, 0 0 60px #ff8000;
+  }
+}
+
+input {
+  padding: 7px;
+  border: 1px solid #555;
+  border-radius: 15px;
+  margin: 5px;
+  width: 20%;
+  box-sizing: border-box;
+}
+/* Add any other global styles or overrides here */
